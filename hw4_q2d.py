@@ -23,7 +23,7 @@ model.addConstr(y <= 8, name="constraint3")
 results_df = pd.DataFrame(columns=["Alpha", "Optimal x", "Optimal y", "Z1", "Z2", "Z_grand"])
 
 # choose number of alpha values 
-n = 6
+n = 100
 
 # Iterate over different values of alpha
 for alpha in range(0, n):  # alpha ranges from 0 to 10
